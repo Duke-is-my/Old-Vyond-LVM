@@ -103,7 +103,7 @@ module.exports = function (req, res, url) {
 			let presave =
 				query.movieId && query.movieId.startsWith("m")
 					? query.movieId
-					: `m-${fUtil[query.noAutosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
+					: `m-${fUtil[query.Autosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
 			title = "Video Editor";
 			attrs = {
 				data: process.env.SWF_URL + "/go_full.swf",
