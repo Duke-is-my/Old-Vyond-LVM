@@ -44,7 +44,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					apiserver: "/",
+					apiserver: "https://ga.vyond.com",
 					storePath: process.env.STORE_URL + "/<store>",
 					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
 					original_asset_id: query["id"] || null,
@@ -77,7 +77,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					apiserver: "/",
+					apiserver: "https://ga.vyond.com",
 					storePath: process.env.STORE_URL + "/<store>",
 					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
 					original_asset_id: query["id"] || null,
@@ -113,7 +113,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					apiserver: "/",
+					apiserver: "https://ga.vyond.com",
 					storePath: process.env.STORE_URL + "/<store>",
 					isEmbed: 1,
 					ctc: "go",
@@ -149,7 +149,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					apiserver: "/",
+					apiserver: "https://ga.vyond.com",
 					storePath: process.env.STORE_URL + "/<store>",
 					ut: 60,
 					autostart: 1,
