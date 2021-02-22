@@ -464,7 +464,30 @@ _wq.push({ id: '70x3iky0kr', onReady: function(video) {
     })
 }});
 </script>
+   <div class="row" id="video-listing">
+        <div class="col-md-4 col-md-push-8">
+            <div id="videos-nav" class="list-group folder-list folder-access">
+                <div class="list-group-item folder-item active droppable" data-folder-id="" data-category="all" data-page="1" data-sort-by="lastmod" data-status="" data-keyword="" data-folder-name="">
+                    <span class="caret-container">
+                        <span class="caret"></span>
+                    </span>
+                    <span class="title folder-name">Your Videos</span>
+                    (<span class="video-count count-all">0</span>)
+                </div>
 
+                <div id="videos-folders-nav" class="list-group-item sub-folder-list"></div>
+
+                <div class="list-group-item folder-item" style="display:none" data-page="1" data-status="" data-category="folders/sharedwith" data-sort-by="lastmod">
+                    <span class="title folder-name">Shared with you</span>
+                    (<span class="video-count count-sharedwith">0</span>)
+                </div>
+
+                <div class="list-group-item folder-item" data-category="trash" data-sort-by="lastmod">
+                    <span class="title folder-name">Trash</span>
+                    (<span class="video-count count-trash">0</span>)
+                </div>
+            </div>
+        </div>
 
 
 <div class="container">
